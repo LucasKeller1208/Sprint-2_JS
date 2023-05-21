@@ -1,0 +1,25 @@
+body {
+    background: rgb(131,161,148);
+    background: linear-gradient(90deg, rgba(131,161,148,1) 0%, rgba(12,201,46,1) 85%, rgba(12,201,144,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+.pagar {
+    text-align: center;
+}
+
+#timer{
+    font-size:30px;
+}
+
+#botao_pagar {
+    background-color:rgb(8, 148, 34);
+    color:white;
+    border:none;
+    border-radius: 5px;
+    font-size: 35px;
+    padding: 10px 10px;
+}

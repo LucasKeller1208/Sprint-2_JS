@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./images/ibm-facon.jfif" />
+    <link href="./css/login.css" rel="stylesheet" />
+    <script src="./js/login.js" defer></script>
+    <title>IBM - Login</title>
+</head>
+<body>
+    <div class="img_logo">
+        <img src="./images/logo_PASS3Y.png" />
+    </div>
+    <div class="center_2">
+        <div class="center">
+            <h1>Login</h1>
+            <form id="login-form" method="post" action="pagar.html" onsubmit="return submitForm();">
+                <div class="controls">
+                    <input type="text" id="inputUsuario" required>
+                    <label class="control-label" for="inputUsuario">Usuário</label>
+                </div>
+                <div class="controls">
+                    <input type="password" id="inputSenha" required>
+                    <label class="control-label" for="inputSenha">Senha</label>
+                </div>
+                <span id="msg"></span>
+                <input type="submit" id="btnSubmit2" value="Entrar"/>
+                <div class="signup_link">
+                    <a href="">Ainda não possui cadastro?</a>
+                    <br>
+                    <br>
+                    Esqueceu a senha? <a href="">Clique Aqui</a>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
