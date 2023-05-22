@@ -1,4 +1,4 @@
-
+//JS
 //Adicionando um evento click ao icone de olho!
 const eyePass = document.querySelector(".fa-eye");
 const inputUser = document.querySelector("input[id='inputUsuario']");
